@@ -21,7 +21,7 @@ function insertImage() {
 insertImage()
 
 
-//Coloring
+//Coloring, màu chessboard
 
 function coloring() {
     const color = document.querySelectorAll('.box')
@@ -56,6 +56,7 @@ coloring()
 
 
 //function to not remove the same team element
+//không đánh quân đồng minh
 
 function reddish() {
     document.querySelectorAll('.box').forEach(i1 => {
